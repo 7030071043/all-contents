@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="quiz-design.css"> <!-- Corrected CSS link -->
+    <title>Quiz Game</title>
+</head>
+  
+
+<body>
+    <center>
+        <h1>Quiz Game</h1>
+
+        <div class="coi">
+            <!-- Question 1 -->
+            <p class="question-style">1.What is the capital of India?</p>
+            <input type="radio" class="answers" id="ans1" name="question1" value="mumbai">Mumbai<br>
+            <input type="radio" class="answers" id="ans1.2" name="question1" value="delhi">Delhi<br>
+            <input type="radio" class="answers" id="ans1.3" name="question1" value="gangtok">Gangtok<br>
+            <input type="radio" class="answers" id="ans1.4" name="question1" value="none">None of these<br>
+
+            <!-- Question 2 -->
+            <p class="question-style">2.Who is the current PM of India?</p>
+            <input type="radio" class="answers" id="ans2" name="question2" value="1">Rahul Gandhi<br>
+            <input type="radio" class="answers" id="ans2.2" name="question2" value="Narendra">Narendra Modi<br>
+            <input type="radio" class="answers" id="ans2.3" name="question2" value="3">Nitin Gadkari<br>
+            <input type="radio" class="answers" id="ans2.4" name="question2" value="4">None of these<br>
+
+            <!-- Question 3 -->
+            <p class="question-style">3.Date of independence for India?</p>
+            <input type="radio" class="answers" id="ans3" name="question3" value="15-08-1947">15-08-1947<br>
+            <input type="radio" class="answers" id="ans3.2" name="question3" value="2">19-10-1957<br>
+            <input type="radio" class="answers" id="ans3.3" name="question3" value="3">10-09-1963<br>
+            <input type="radio" class="answers" id="ans3.4" name="question3" value="4">None of these<br>
+
+            <!-- Question 4 -->
+            <p class="question-style">4.Which animal is known as the 'Ship of the Desert'?</p>
+            <input type="radio" class="answers" id="ans4" name="question4" value="elephant">Elephant<br>
+            <input type="radio" class="answers" id="ans4.2" name="question4" value="squirrel">Squirrel<br>
+            <input type="radio" class="answers" id="ans4.3" name="question4" value="camel">Camel<br>
+            <input type="radio" class="answers" id="ans4.4" name="question4" value="none">None of these<br>
+        </div>
+
+        <div id="quiz-result" style="font-weight: bold; font-size: 20px; margin-top: 10px; margin-bottom: 10px;"></div>
+
+        <!-- Submit Button -->
+        <button class="submit-btn" onclick="submitQuiz()">Submit Quiz</button>
+    </center>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="script quiz.js"></script>
+</body>
+</html>

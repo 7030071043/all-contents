@@ -1,0 +1,99 @@
+body {
+    height: 500px;
+    background-image: url(imb2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-style {
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+.header-style:hover {
+    color: #ccc;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.username-input {
+    color: #f0f0f0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+	font-style: italic;
+}
+
+.username-input:hover {
+    color: #ccc;
+}
+
+.password-input {
+    color: #f0f0f0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.password-input:hover {
+    color: #ccc;
+}
+
+/* Container for better alignment */
+.container {
+    text-align: center; /* Center-align all elements in the container */
+    margin: 20px; /* Add margin around the container if needed */
+}
+
+/* Styling for forgotten password link */
+.Forgotten-password {
+    font-size: 18px;
+    color: white; /* Blue color */
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 10px; /* Margin below the link */
+}
+
+.Forgotten-password:hover {
+    color: #00c; /* Darker blue on hover */
+}
+
+/* Styling for registration link */
+.register-link {
+    font-size: 18px;
+    color: white; /* Blue color */
+    text-decoration: none; /* Remove underline */
+}
+
+.register-link:hover {
+    color: #00c; /* Darker blue on hover */
+}
+
+/* Styling for submit button */
+.submit-button {
+    background-color:green; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px 30px; /* Button padding */
+    font-size: 18px; /* Font size for button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 10px; /* Margin above the button */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth color transitions */
+}
+
+.submit-button:hover {
+    background-color: deepskyblue; /* Darker blue on hover */
+}
+
+.submit-button:active {
+    background-color: green; /* Even darker blue when clicked */
+    color: lightgray; /* Light gray text when clicked */
+}

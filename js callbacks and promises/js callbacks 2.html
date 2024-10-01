@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Example</title>
+</head>
+<body>
+    
+
+    <script>
+       // A function that takes a callback function as an argument
+ function processUserInput(callback){
+    const name = prompt("enter your name here");
+    callback(name); 
+ }
+// script.onerror = function() {
+//     console.log("error while loading this link plz check the credentials of link or any other reason="+src);
+
+//      }
+// Define a callback function
+function greetUser(name) {
+    alert("Hello, " + name);
+} 
+
+// Call the processUserInput function, passing the greetUser function as the callback
+processUserInput(greetUser);
+
+    </script>
+</body>
+</html>

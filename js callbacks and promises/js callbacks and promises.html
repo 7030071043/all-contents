@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>callbacks and promises Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+</head>
+<body>
+<script>
+let p1 = new Promise(function(resolve,reject){
+console.log ("promise is pending")
+
+setTimeout(()=>{
+console.log("i am promise and i'm fullfilled")
+ resolve(true) 
+
+},1000)
+ 
+
+})
+
+
+let p2 = new Promise(function(resolve,reject){
+console.log ("promise is pending")
+
+setTimeout(()=>{
+console.log("i am promise and i am rejected")
+ 
+reject(new Error("hi am an error"))
+
+},1000)
+
+
+})
+
+ p1.then((value) =>{
+console.log(value)
+ })
+
+
+
+</script>
+    </body>
+   </html> 

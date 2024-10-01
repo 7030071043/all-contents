@@ -1,0 +1,62 @@
+
+
+body {
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    }
+
+ .display-input1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black; 
+    font-size: 15px; 
+    font-style: italic;
+    text-align: center; 
+}
+.display-input1 :hover{
+ color: #333;
+}
+
+  input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Light border for a subtle look */
+    background-color: #f9f9f9; /* Light background color */
+    font-size: 16px; /* Readable font size */
+    color: black; /* Dark text color for contrast */
+    
+}
+.header-style{
+font-size: bold;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 20px;
+font-style: italic; 
+}
+.header-style:hover{
+     color: #333;
+}
+
+.submit-button {
+    background-color:green; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px 30px; /* Button padding */
+    font-size: 18px; /* Font size for button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 10px; /* Margin above the button */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth color transitions */
+}
+
+.submit-button:hover {
+    background-color: deepskyblue; /* Darker blue on hover */
+}
+
+.submit-button:active {
+    background-color: green; /* Even darker blue when clicked */
+    color: lightgray; /* Light gray text when clicked */
+}
+
